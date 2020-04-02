@@ -9,9 +9,12 @@ class Shoe
 
   def cobble
     self.condition = "new"
-      BRANDS.uniq
+      #BRANDS.uniq
     puts "Your shoe is as good as new!"
 
   end
+  def brand
+    BRANDS.uniq
+  end  
 
 end
